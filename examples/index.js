@@ -2,7 +2,7 @@
 
 var matrix = require( 'dstructs-matrix' ),
 	array = require( 'dstructs-array' ),
-	ewise = require( './../lib' );
+	ewise2 = require( './../lib' );
 
 var adder,
 	out;
@@ -12,7 +12,7 @@ function add( x, y ) {
 }
 
 // Create an element-wise API:
-adder = ewise( add );
+adder = ewise2( add );
 
 // Add numbers:
 out = adder( 3, 5 );

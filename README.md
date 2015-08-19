@@ -17,11 +17,11 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 ## Usage
 
 ``` javascript
-var create = require( 'element-wise-function-2' );
+var ewise2 = require( 'element-wise-function-2' );
 ```
 
 
-#### create( fcn )
+#### ewise2( fcn )
 
 Creates an element-wise API for a 2-parameter numeric `function`.
 
