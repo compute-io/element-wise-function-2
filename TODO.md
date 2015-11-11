@@ -7,12 +7,28 @@ TODO
 	-	how different from array-number?
 3. 	typed-array-number apply
 	-	needs to be reviewed
-4. 	array-number
-	-	pending review?
+4. 	array-number apply
+	-	pending review (?)
 5. 	accessor apply
 	-	should this be included or be something which is provided on a case-by-case basis???
 		-	hard to generalize beyond 2 args
 6. 	
+
+
+### Notes
+
+*	Possible types:
+	1. 	number
+	2. 	array
+	3. 	typed array
+	4. 	matrix
+	5. 	complex
+	6. 	df
+	7. 	big number
+	8. 	unit
+	9. 	accessor
+	10. 
+
 
 
 ### Rules
@@ -48,3 +64,9 @@ TODO
 13. If provided arrays and anything else
 	-	return a NaN-filled array
 14. 
+
+
+##### Tests
+
+1. to test functions, apply base case (e.g., `add`) to each fingerprint to ensure that a function supporting said fingerprint is provided
+2. 
