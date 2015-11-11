@@ -5,6 +5,7 @@ TODO
 	-	pending review
 2. 	array-value apply
 	-	how different from array-number?
+	-	accessors?
 3. 	typed-array-number apply
 	-	needs to be reviewed
 4. 	array-number apply
@@ -12,7 +13,14 @@ TODO
 5. 	accessor apply
 	-	should this be included or be something which is provided on a case-by-case basis???
 		-	hard to generalize beyond 2 args
+		-	only allow for single arguments.
+			-	too much of a headache.
 6. 	
+7. 	separate out `fingerprint` module?
+	-	returns a argument fingerprint based on a `string` array?
+	-	if provided example arguments, infers the types and then returns a fingerprint?
+	-	seems pretty unique to this use case...
+8. 	
 
 
 ### Notes
@@ -52,15 +60,16 @@ TODO
 7. If provided only typed arrays
 	[x]	use typedarrayfun
 8. If provided only typed arrays and arrays
-	-	use arrayfun with wrapper
+	[x]	use arrayfun with wrapper
 9. If provided only typed arrays and numbers
-	-	use typedarray-number fun
-10. If provided typed arrays and anything else (not a matrix),
+	[x]	use typedarray-number fun
+10. If provided typed arrays and anything else (not a matrix)
 	-	return a NaN-filled typed array
-11. If provided only arrays,
+11. If provided only arrays
 	[x]	use arrayfun
 12. If provided only arrays and numbers
 	-	use array-value fun with wrapper
+	-	array-value or array-number???
 13. If provided arrays and anything else
 	-	return a NaN-filled array
 14. 

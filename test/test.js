@@ -15,7 +15,7 @@ var expect = chai.expect,
 
 // TESTS //
 
-describe( 'compute-element-wise-function-2', function tests() {
+describe( 'compute-element-wise-function', function tests() {
 
 	it( 'should export a function', function test() {
 		expect( create ).to.be.a( 'function' );

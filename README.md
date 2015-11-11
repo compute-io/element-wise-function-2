@@ -2,13 +2,13 @@ Element-Wise API
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Creates an element-wise API for a 2-parameter numeric function.
+> Creates an element-wise API for a numeric function.
 
 
 ## Installation
 
 ``` bash
-$ npm install element-wise-function-2
+$ npm install element-wise-function
 ```
 
 For use in the browser, use [browserify](https://github.com/substack/node-browserify).
@@ -17,13 +17,13 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 ## Usage
 
 ``` javascript
-var ewise2 = require( 'element-wise-function-2' );
+var ewise = require( 'element-wise-function' );
 ```
 
 
-#### ewise2( fcn )
+#### ewise( fcn )
 
-Creates an element-wise API for a 2-parameter numeric `function`.
+Creates an element-wise API for a numeric `function`.
 
 ``` javascript
 
@@ -33,7 +33,7 @@ Creates an element-wise API for a 2-parameter numeric `function`.
 ## Examples
 
 ``` javascript
-var create = require( 'element-wise-function-2')
+var create = require( 'element-wise-function')
 ```
 
 To run the example code from the top-level application directory,
@@ -82,20 +82,20 @@ $ make view-cov
 Copyright &copy; 2015. The [Compute.io](https://github.com/compute-io) Authors.
 
 
-[npm-image]: http://img.shields.io/npm/v/element-wise-function-2.svg
-[npm-url]: https://npmjs.org/package/element-wise-function-2
+[npm-image]: http://img.shields.io/npm/v/element-wise-function.svg
+[npm-url]: https://npmjs.org/package/element-wise-function
 
-[travis-image]: http://img.shields.io/travis/compute-io/element-wise-function-2/master.svg
-[travis-url]: https://travis-ci.org/compute-io/element-wise-function-2
+[travis-image]: http://img.shields.io/travis/compute-io/element-wise-function/master.svg
+[travis-url]: https://travis-ci.org/compute-io/element-wise-function
 
-[codecov-image]: https://img.shields.io/codecov/c/github/compute-io/element-wise-function-2/master.svg
-[codecov-url]: https://codecov.io/github/compute-io/element-wise-function-2?branch=master
+[codecov-image]: https://img.shields.io/codecov/c/github/compute-io/element-wise-function/master.svg
+[codecov-url]: https://codecov.io/github/compute-io/element-wise-function?branch=master
 
-[dependencies-image]: http://img.shields.io/david/compute-io/element-wise-function-2.svg
-[dependencies-url]: https://david-dm.org/compute-io/element-wise-function-2
+[dependencies-image]: http://img.shields.io/david/compute-io/element-wise-function.svg
+[dependencies-url]: https://david-dm.org/compute-io/element-wise-function
 
-[dev-dependencies-image]: http://img.shields.io/david/dev/compute-io/element-wise-function-2.svg
-[dev-dependencies-url]: https://david-dm.org/dev/compute-io/element-wise-function-2
+[dev-dependencies-image]: http://img.shields.io/david/dev/compute-io/element-wise-function.svg
+[dev-dependencies-url]: https://david-dm.org/dev/compute-io/element-wise-function
 
-[github-issues-image]: http://img.shields.io/github/issues/compute-io/element-wise-function-2.svg
-[github-issues-url]: https://github.com/compute-io/element-wise-function-2/issues
+[github-issues-image]: http://img.shields.io/github/issues/compute-io/element-wise-function.svg
+[github-issues-url]: https://github.com/compute-io/element-wise-function/issues
