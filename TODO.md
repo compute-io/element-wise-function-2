@@ -11,16 +11,27 @@ TODO
 4. 	array-number apply
 	-	pending review (?)
 5. 	accessor apply
-	-	should this be included or be something which is provided on a case-by-case basis???
-		-	hard to generalize beyond 2 args
-		-	only allow for single arguments.
-			-	too much of a headache.
+	-	generalize accessor apply to `N` arguments
+	-	this may be a module in its own right, similar to `array-function`
 6. 	
 7. 	separate out `fingerprint` module?
 	-	returns a argument fingerprint based on a `string` array?
 	-	if provided example arguments, infers the types and then returns a fingerprint?
 	-	seems pretty unique to this use case...
-8. 	
+	-	`compute-arguments-fingerprint`
+	-	mapping => `compute-argument-types`
+8. 	also need to handle all those cases (fingerprints) where given an unsupported type
+9. 	`compute-unique` needs to support non-numeric values!!!
+	-	see `fingerprint/index.js`
+10. expose method for creating an element-wise function
+11. how does 1-parameter differ?
+	-	deepget/deepset
+	-	mutate input data structure (copy=false)
+	-	
+12. maybe an `ewise1`, `ewise2`, and `ewisen`
+13. how to support parameterization of functions? e.g., [partial](https://github.com/distributions-io/beta-pdf/blob/master/lib/typedarray.js) application
+14. 
+
 
 
 ### Notes
